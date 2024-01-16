@@ -1,17 +1,35 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom';
+//import Form from './Form';
+//import Event from './Event';
+//import App from './App';
+//import './event.css';
+//import './index.css';
+//import './form.css';
+import Cap from './Cap'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+ReactDOM.render(<Cap/>,document.getElementById('root'))
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// const fullName = ['vinod' , 'thapa'];
+// const bioData = [1 , ...fullName , 'rup'];
+// console.log(bioData);
+// console.log(fullName);
+
+// var student = ['rup' , 'nilu' , 'golu'];
+// var [first , ...remaining] = student;
+// console.log(first);
+// console.log(remaining);
+
+// const fullName = {
+//     fname: 'vinod',
+//     lname: 'thapa',
+// };
+
+// const biodata = {
+//     id : 1,
+//     ...fullName,
+//     age: 26,
+//     gender: 'male',
+// };
+// console.log(biodata);
+
